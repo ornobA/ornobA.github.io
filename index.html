@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8" />
         <title>Ornob Amin's GitHub Page</title>
         <style>
-                        * {
+            * {
                 margin: 0%;
             }
             html {
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             }
             h1{
+                font-size: calc(2.5vw);
                 background-color: #122c52;
                 color: rgb(36, 103, 180);
             }
             footer {
+                font-size: calc(1.25vw);
                 background-color:rgb(64, 85, 61);
                 color: #baffb8;
                 text-align: center;
                 line-height: 4ch;
+                border-color: #558154;
                 margin-top: auto;
             }
             body {
+                font-size: calc(1.5vw);
                 display: flex;
                 flex-direction: column;
                 min-height: 100vh;
             }
+            
+            @media only screen and (max-width: 768px) {
+                h1 {
+                    font-size: 5vh;
+                }
+                body {
+                    font-size: 3vh;
+                }
+                footer {
+                    font-size: 2.5vh;
+                }
+            }
+
         </style>
     </head>
     <body>
@@ -34,6 +52,6 @@
         </section>
     </body>
     <footer>
-        <small>Webpage designed by Ornob Amin. Version 0.4.2 β</small>
+        <small>Webpage designed by Ornob Amin. Version 0.4.3 β</small>
     </footer>
 </html>
